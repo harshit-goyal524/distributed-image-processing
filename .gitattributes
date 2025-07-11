@@ -1,0 +1,17 @@
+# Treat all text files as text, but don’t auto-convert line endings
+* text=auto
+
+# Force Linux code to use LF
+vm-backend/** text eol=lf
+
+# Force Windows frontend code to use CRLF (if needed)
+windows-frontend/** text eol=crlf
+
+# Dockerfiles and scripts (always LF)
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.md text eol=lf

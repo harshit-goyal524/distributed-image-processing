@@ -5,7 +5,7 @@
 vm-backend/** text eol=lf
 
 # Force Windows frontend code to use CRLF (if needed)
-windows-frontend/** text eol=crlf
+windows-host-app/** text eol=crlf
 
 # Dockerfiles and scripts (always LF)
 *.sh text eol=lf
